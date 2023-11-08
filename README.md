@@ -2,6 +2,8 @@
 
 A browser extension and a backend that allows to compete on private dashboards even if you can't start solving the tasks right away when they are published on adventofcode.com
 
+Chrome: https://chrome.google.com/webstore/detail/451deea8-9098-4355-9c24-d900de05dcdf/kappjecebnaijcnggpalchijopjjiogp/
+
 # How does it work?
 
 Extends private leaderboard capabilities of the adventofcode.com website by tracking the first time a user opens a day's challenge.
