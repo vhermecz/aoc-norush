@@ -1,8 +1,8 @@
 # aoc-norush
 
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/kappjecebnaijcnggpalchijopjjiogp?style=for-the-badge&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Faoc-norush-extension%2Fkappjecebnaijcnggpalchijopjjiogp)
-![Static Badge](https://img.shields.io/badge/-TBD-red?label=mozilla%20add-on)
-![Static Badge](https://img.shields.io/badge/-TBD-red?label=Safari%20Extension)
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/kappjecebnaijcnggpalchijopjjiogp?style=for-the-badge)](https://chromewebstore.google.com/detail/aoc-norush-extension/kappjecebnaijcnggpalchijopjjiogp)
+![Static Badge](https://img.shields.io/badge/-TBD-red?label=mozilla%20add-on&style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/-TBD-red?label=Safari%20Extension&style=for-the-badge)
 
 Share opening times with your friends, so you don't have to be up at 5AM UTC and can still compete.
 
