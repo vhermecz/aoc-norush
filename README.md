@@ -6,6 +6,8 @@
 
 Share opening times with your friends, so you don't have to be up at 5AM UTC and can still compete.
 
+NOTE: You need to install the extension on the Browser you are using to view the daily challenges in order to allow it to retrieve past and future opening times of the challenge pages. See the [privacy policy](PRIVACY.md) about data it collects, and how it is used.
+
 ## How to use it?
 
 1. Install the browser extension
