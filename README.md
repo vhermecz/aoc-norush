@@ -16,6 +16,12 @@ NOTE: You need to install the extension on the Browser you are using to view the
 3. Click on [Ordering] and select the new [NoRush Score] option
 4. Hover over the * z Δ o ✔ # icons and day nums in the table header for more details
 
+## How does it look like?
+
+After you select the new [NoRush Score] ordering, the score table is enhanced with a few new options:
+
+![Enhanced dashboard](.resources/demo.png?raw=true "Enhanced dashboard")
+
 ## How does it work?
 
 Your browser captures page visitation info in its history. The extension scans this for the AoC tasks' urls and uploads the earliest (first) times to its backend.
