@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/-TBD-red?label=Safari%20Extension&style=for-the-badge)
 [![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge)](https://www.paypal.com/donate/?business=XVU35R3EPXQK2&no_recurring=0&currency_code=USD)
 
-Share opening times with your friends, so you don't have to be up at 5AM UTC and can still compete.
+Share opening times with your friends, so you don't have to be up early (6 AM) in Europe / late (~8-9PM) in the US, and can still compete.
 
 NOTE: You need to install the extension on the Browser you are using to view the daily challenges in order to allow it to retrieve past and future opening times of the challenge pages. See the [privacy policy](PRIVACY.md) about data it collects, and how it is used.
 
