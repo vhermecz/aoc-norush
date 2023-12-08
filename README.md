@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/-TBD-red?label=Safari%20Extension&style=for-the-badge)
 [![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge)](https://www.paypal.com/donate/?business=XVU35R3EPXQK2&no_recurring=0&currency_code=USD)
 
-Share opening times with your friends, so you don't have to be up early (6 AM) in Europe / late (~8-9PM) in the US, and can still compete.
+Share opening times with your friends, so you can have a good night's sleep, and still compete.
 
 NOTE: You need to install the extension on the Browser you are using to view the daily challenges in order to allow it to retrieve past and future opening times of the challenge pages. See the [privacy policy](PRIVACY.md) about data it collects, and how it is used.
 
@@ -24,14 +24,16 @@ After you select the new [NoRush Score] ordering, the score table is enhanced wi
 
 ## How does it work?
 
-Your browser captures page visitation info in its history. The extension scans this for the AoC tasks' urls and uploads the earliest (first) times to its backend.
+Your browser captures page visitation info in its history. The extension scans this for the AoC challenge urls and uploads the earliest (first) times to its backend.
 
-When you open a private leaderboard, the backend provides task opening times for all members with the extension installed.
+When you open a private leaderboard, the backend provides the opening times for all members with the extension installed.
 
 NoRush score is calculated based on the time it took for you to solve the task from when you first opened its description.
 
 ## Browser support
 
+- Firefox: Click badge at the top
+- Chrome: Click badge at the top
 - Opera: Install from the Chrome Web Store
 - Brave: Install from the Chrome Web Store
 
