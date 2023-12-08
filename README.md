@@ -24,6 +24,7 @@ After you select the new [NoRush Score] ordering, the score table is enhanced wi
 
 ## What are the features?
 
+Enhances the rankings with:
 - Order/score by:
   - part completion times, delta time
   - norush completion times, opening time (the users who installed this plugin)
