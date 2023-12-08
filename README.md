@@ -22,6 +22,17 @@ After you select the new [NoRush Score] ordering, the score table is enhanced wi
 
 ![Enhanced dashboard](.resources/demo.png?raw=true "Enhanced dashboard")
 
+## What are the features?
+
+- Order/score by:
+  - part completion times, delta time
+  - norush completion times, opening time (the users who installed this plugin)
+- Order by score globally, or by the above times on a daily basis
+- See the above time metrics for each user
+- Two grid modes:
+  - Completion mode: this is the traditional black/grey/golden star grid view
+  - Rank mode: display ranking for each part: 1, 2, 3, ..., y, z  #base36
+
 ## How does it work?
 
 Your browser captures page visitation info in its history. The extension scans this for the AoC challenge urls and uploads the earliest (first) times to its backend.
