@@ -31,7 +31,7 @@ Enhances the rankings with:
 - Order by score globally, or by the above times on a daily basis
 - See the above time metrics for each user
 - Two grid modes:
-  - Completion mode: this is the traditional black/grey/golden star grid view
+  - Completion mode: this is the traditional black/silver/gold star grid view
   - Rank mode: display ranking for each part: 1, 2, 3, ..., y, z  #base36
 
 ## How does it work?
@@ -41,6 +41,10 @@ Your browser captures page visitation info in its history. The extension scans t
 When you open a private leaderboard, the backend provides the opening times for all members with the extension installed.
 
 NoRush score is calculated based on the time it took for you to solve the task from when you first opened its description.
+
+NOTE: Opetimes are cached for 5 minutes. Even if you force reload the page. So the backend can chill. You should also ;)
+
+NOTE: The official AoC API data (part completion times) is cached for 15 minutes (See the [API] link at the top of a private dashboard on why)
 
 ## Browser support
 
