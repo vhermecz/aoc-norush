@@ -55,8 +55,12 @@ NOTE: The official AoC API data (part completion times) is cached for 15 minutes
 
 ## FAQ
 
-- It does not work: Currently the extension only activates, if you navigate to a Private Leaderboard, click on [Ordering] and select [NoRush Score]. If it is still not updating the view according to the screenshot, congrats, you found a bug. I might automatically see it in Sentry and fix it, but feel free to open an Issue about it.
-- Where is the source, dude?: I am planning to open up the source code of both the browser extension and the backend, but probably only in January due to EOY deliverables ate up all my free and personal time :(
+- It does not work!
+  - Make sure you have a [private leadboard membership](https://adventofcode.com/2023/leaderboard/private). It is required for the extension to work.
+  - Currently the extension only activates, if you navigate to a Private Leaderboard, click on [Ordering] and select [NoRush Score].
+  - If it is still not updating the view according to the screenshot, congrats, you found a bug. I might automatically see it in Sentry and fix it, but feel free to open an Issue about it.
+- Where is the source, dude?
+  - I am planning to open up the source code of both the browser extension and the backend, but probably only in January due to EOY deliverables ate up all my free and personal time :(
 
 ## Affiliation Disclaimer
 
