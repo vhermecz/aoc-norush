@@ -24,15 +24,28 @@ After you select the new [NoRush Score] ordering, the score table is enhanced wi
 
 ## What are the features?
 
-Enhances the rankings with:
-- Order/score by:
-  - part completion times, delta time
-  - norush completion times, opening time (the users who installed this plugin)
-- Order by score globally, or by the above times on a daily basis
-- See the above time metrics for each user
-- Two grid modes:
-  - Completion mode: this is the traditional black/silver/gold star grid view
-  - Rank mode: display ranking for each part: 1, 2, 3, ..., y, z  #base36
+With the plugin installed, you can now:
+
+Set scoring mode:
+- `*` Local Score: The tradition AoC scoring mode. Measures time from publication aka 05:00AM UTC, aka gross time
+- `z` NoRush Score: Measures time from each players own opentime, aka net time
+- `Δ` Delta time: Score is based on the time delta between solving the two parts
+- `o` Opening time: Score is based on who was the quickest to open the challenge. (Okay, I know, this makes no much sense. However, hovering the table columns, this mode allows you to see the times when players started to solve the challenges)
+
+NOTE: NoRush and Opening scoring mode only scores users who have the NoRush extension installed.
+
+Set grid mode:
+- `✔` Completion mode: this is the traditional black/silver/gold star grid view
+- `#` Rank mode: display ranking for each part: 1, 2, 3, ..., y, z  #base36
+
+Details view:
+- If you click the header for a day, you enable details mode
+- This opens up a few new columns to the left of the grid view
+- You can click these new columns to reorder the table by them
+- Based on the scoring mode, the new columns display:
+  - For Local/NoRush mode: each user's time for part1 part2, and the delta time
+  - For Delta-time mode: the delta time
+  - For Opening-time mode: the relative time from 05:00AM UTC, when the user opened the challenge
 
 ## How does it work?
 
