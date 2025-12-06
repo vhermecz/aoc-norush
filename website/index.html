@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aoc-norush - Sleep peacefully, still compete</title>
+    <style>
+        :root {
+            --primary-color: #0f0f23; /* AoC dark blue */
+            --accent-color: #00cc00; /* AoC bright green */
+            --text-color: #cccccc;
+            --bg-color: #1e1e30;
+        }
+
+        body {
+            font-family: "Source Code Pro", monospace;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--bg-color);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin: 0;
+            text-shadow: 0 0 5px var(--accent-color);
+        }
+
+        h2, h3 {
+            color: #ffffff;
+            margin-top: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .highlight {
+            color: #ffff66;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--primary-color);
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #00ff00;
+            box-shadow: 0 0 10px var(--accent-color);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
+        .video-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns for two videos */
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9em;
+            color: #666;
+            border-top: 1px solid #333;
+        }
+
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .video-container, .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>aoc-norush</h1>
+        <p>Share opening times with your friends, have a good night's sleep, and still compete.</p>
+        <a href="https://github.com/vhermecz/aoc-norush" class="btn">View on GitHub</a>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h2>How it works</h2>
+            <p>
+                Advent of Code typically rewards those who solve puzzles fastest after they are published (05:00 UTC). 
+                <strong>aoc-norush</strong> levels the playing field by calculating your score based on your 
+                <span class="highlight">net time</span> (from when you open the puzzle) rather than gross time.
+            </p>
+        </section>
+
+        <section>
+            <h2>Demos / Tutorials</h2>
+            <p>Watch these videos to see the extension in action:</p>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>z NoRush Score</h3>
+                    <p>Measures time from each player's own open time (net time).</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Δ Delta Time</h3>
+                    <p>Score based on the time difference between solving Part 1 and Part 2.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>o Opening Time</h3>
+                    <p>See exactly when players started solving the challenge.</p>
+                </div>
+                <div class="feature-card">
+                    <h3># Rank Mode</h3>
+                    <p>Display ranking for each part in the grid (1, 2, 3... y, z).</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to use it?</h2>
+            <ol>
+                <li>Install the browser extension (Chrome, Firefox, etc.).</li>
+                <li>Open a private leaderboard.</li>
+                <li>Click on <strong>[Ordering]</strong> and select the new <strong>[NoRush Score]</strong> option.</li>
+                <li>Hover over the table headers for detailed stats.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Browser Support</h2>
+            <ul>
+                <li><strong>Firefox</strong> & <strong>Chrome</strong>: Supported via store or manual install.</li>
+                <li><strong>Opera</strong> & <strong>Brave</strong>: Install from Chrome Web Store.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>
+            This project is not affiliated with Advent of Code. <br>
+            Original code by <a href="https://github.com/vhermecz">vhermecz</a>.
+        </p>
+    </footer>
+
+</body>
+</html>
