@@ -103,6 +103,20 @@
             height: 100%;
         }
 
+        /* Badges for stores/donate */
+        .badges {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .badges img {
+            height: 36px;
+            display: inline-block;
+        }
+
         footer {
             text-align: center;
             padding: 2rem;
@@ -126,6 +140,23 @@
     <header>
         <h1>aoc-norush</h1>
         <p>Share opening times with your friends, have a good night's sleep, and still compete.</p>
+        <div class="badges" aria-hidden="false">
+            <a href="https://chromewebstore.google.com/detail/aoc-norush-extension/kappjecebnaijcnggpalchijopjjiogp" aria-label="Chrome Web Store">
+                <img src="https://img.shields.io/chrome-web-store/v/kappjecebnaijcnggpalchijopjjiogp?style=for-the-badge" alt="Chrome Web Store Version">
+            </a>
+
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/aoc-norush-extension/" aria-label="Mozilla Add-on">
+                <img src="https://img.shields.io/amo/v/aoc-norush-extension?style=for-the-badge" alt="Mozilla Add-on Version">
+            </a>
+
+            <a aria-label="Safari Add-on TBD">
+                <img src="https://img.shields.io/badge/-TBD-red?label=Safari%20Extension&style=for-the-badge" alt="Safari Extension (TBD)">
+            </a>
+
+            <a href="https://www.paypal.com/donate/?business=XVU35R3EPXQK2&no_recurring=0&currency_code=USD" aria-label="PayPal donate">
+                <img src="https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge" alt="PayPal donate">
+            </a>
+        </div>
         <a href="https://github.com/vhermecz/aoc-norush" class="btn">View on GitHub</a>
     </header>
 
@@ -209,6 +240,23 @@
     </div>
 
     <footer>
+        <div class="badges" aria-hidden="false">
+            <a href="https://chromewebstore.google.com/detail/aoc-norush-extension/kappjecebnaijcnggpalchijopjjiogp" aria-label="Chrome Web Store">
+                <img src="https://img.shields.io/chrome-web-store/v/kappjecebnaijcnggpalchijopjjiogp?style=for-the-badge" alt="Chrome Web Store Version">
+            </a>
+
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/aoc-norush-extension/" aria-label="Mozilla Add-on">
+                <img src="https://img.shields.io/amo/v/aoc-norush-extension?style=for-the-badge" alt="Mozilla Add-on Version">
+            </a>
+
+            <a aria-label="Safari Add-on TBD">
+                <img src="https://img.shields.io/badge/-TBD-red?label=Safari%20Extension&style=for-the-badge" alt="Safari Extension (TBD)">
+            </a>
+
+            <a href="https://www.paypal.com/donate/?business=XVU35R3EPXQK2&no_recurring=0&currency_code=USD" aria-label="PayPal donate">
+                <img src="https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge" alt="PayPal donate">
+            </a>
+        </div>
         <p>
             This project is not affiliated with Advent of Code. <br>
             Original code by <a href="https://github.com/vhermecz">vhermecz</a>.
